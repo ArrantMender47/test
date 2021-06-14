@@ -1,9 +1,12 @@
 package com.ch.thread;
 
+import java.util.ArrayList;
 import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;
 
 public class ThreadTest06 {
+
+
 
     public static void main(String[] args) {
 
@@ -16,6 +19,9 @@ public class ThreadTest06 {
 
         CreateThread02 t1 = new CreateThread02();
         CreateThread02 t2 = new CreateThread02();
+
+        ArrayList<Object> arrayList = new ArrayList<>();
+
 
 
         t1.setName("t1");
