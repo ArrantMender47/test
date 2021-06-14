@@ -16,7 +16,7 @@ public class ThreadTest06 {
 
         CreateThread02 t1 = new CreateThread02();
         CreateThread02 t2 = new CreateThread02();
-        CreateThread02 t3 = new CreateThread02();
+
 
         t1.setName("t1");
         t2.setName("t2");
